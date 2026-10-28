@@ -248,7 +248,7 @@ def md_table(df: pd.DataFrame):
 # =============================================================================== header
 st.title(APP_NAME)
 st.markdown("<div class='orb-sub'>How banks make money, take risk, and sometimes break · "
-            "Developed by Prof. Shalini Velappan</div>", unsafe_allow_html=True)
+            "</div>", unsafe_allow_html=True)
 
 if ss.mode == MODE_DATA:
     ctx = f"**{NAME}** · {BANK_TYPE[NAME]} · {ss.fy} · " + \
